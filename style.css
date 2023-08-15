@@ -12,6 +12,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0 40px;
+    border-radius: 0 0 40px 40px;
     color: white;
 }
 header nav{
@@ -26,10 +27,11 @@ header img{
     height: 50px;
 }
 .Sides{
+    height: 440px;
     display: flex;
-    padding: 20px 50px;
+    align-items: center;
+    padding: 0px 50px;
     gap: 40px;
-    height: 100%;
 }
 .leftSide{
     width: 50%;
@@ -51,24 +53,36 @@ header img{
 }
 .images{
     width: 100%;
+    padding: 15px 0 20px 0;
+    background-color:#7d41d6;
+    color: white;
+    
+}
+.images h2{
+    font-size: 40px;
+    text-align: center;
+}
+.images div{
     display: flex;
     justify-content: space-around;
-    background-color:#7d41d6;
-    ;
 }
 .images img{
-    width: 400px;
-    height: 350px;
+    width: 450px;
+    height: 400px;
     margin: 30px 0;
     border-radius: 40px;
 }
 footer{
     width: 100%;
-    height: 100%;
+    height: 115px;
     text-align: center;
-    
-    background-color: blue;
+    padding: 70px 0;
+    color: white;
+    background-color: rgb(76, 7, 150);
 }
 footer h2{
-    margin: 30px 0;
+    margin-bottom:10px;
+}
+footer p{
+    text-wrap:balance;
 }
